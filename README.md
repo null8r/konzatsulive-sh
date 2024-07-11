@@ -16,7 +16,7 @@
   ```
 4. 
   ```
-  sh setup.sh
+  source ./set_variables.sh && sh setup.sh
   ```
 5. カメラを接続し、デバイスに合ったものを実行
   - Raspberry Pi4 (32bit)
