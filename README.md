@@ -18,18 +18,21 @@
   ```
   source ./set_variables.sh && sh setup.sh
   ```
-5. カメラを接続し、デバイスに合ったものを実行
-  - Raspberry Pi4 (32bit)
+5. カメラを接続し、OSに合ったものを実行
+  - Raspberry Pi OS (64bit)<br>
+    ハードウェアエンコード (v4l2m2m)
     ```
-    ./livePi4-32.sh
+    ./live-v4l2.sh
     ```
-  - Raspberry Pi4 (64bit)
+  - Raspberry Pi OS (32bit)<br>
+    ハードウェアエンコード (OpenMAX)
     ```
-    ./livePi4-64.sh
+    ./live-omx.sh
     ```
-  - Raspberry Pi5
+  - すべてのOS<br>
+    ソフトウェアエンコード (h264)
     ```
-    ./livePi5.sh
+    ./live-swe.sh
     ```
 
 ## What will happens
